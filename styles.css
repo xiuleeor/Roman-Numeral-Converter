@@ -1,0 +1,102 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+  background-color: #023047;
+}
+
+.title{
+  width: 500px;
+  text-align: center;
+  justify-content: center;
+  font-size: 3rem; 
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #fb8500;
+}
+
+.form{
+  background-color: #8ecae6;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.numberTag{
+  color: #219ebc;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+#number{
+  width: 80%;
+  height: 2rem;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  background-color: #219ebc;
+  color: #fb8500;
+  font-size: 2rem;
+  padding: .5rem;
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+#convert-btn{
+  width: 40%;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: 900;
+  background-color: #ffb703;
+  color: #023047;
+  border: none;
+  text-align: center;
+}
+
+#convert-btn:hover{
+  cursor: pointer;
+  border: solid #fb8500 1px;
+}
+
+#output{
+  display: none;
+  width: 500px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  display: flex;
+  font-size: 2rem;
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.converted{
+  display: flex;
+  background-color: #219ebc;
+  color: #023047;
+}
+
+.error{
+  display: flex;
+  background-color: #fb8500;
+  color: #023047;
+}
